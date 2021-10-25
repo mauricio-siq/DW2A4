@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>COVID-19</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="main">
+        <div class="header">
+          <h2>Estatisticas da COVID-19 nos estados brasileiros</h2>
+          <h4>Insira um CEP abaixo, e veja as estatisticas do estado correspondente</h4>
+        </div>
+        <input type="text" name="cep" class="cep" id="cep" data-js="cep" />
+        <button id="button">Pesquisar</button>
+      </section>
+      <section>
+        <table id="data-table">
+          <thead>
+            <tr>
+              <th>UF</th>
+              <th>Estado</th>
+              <th>Casos</th>
+              <th>Óbitos</th>
+              <th>Suspeitos</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
