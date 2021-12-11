@@ -1,0 +1,9 @@
+.div-explore {
+    width: 101%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
